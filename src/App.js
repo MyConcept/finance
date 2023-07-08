@@ -1,11 +1,12 @@
 
 import './App.css';
-import logoFinance from "./logo.png";
+import Navbar from "./Navbar/Navbar";
+import Layout from "./Layout/Layout"
 function App() {
   return (
     <div className="App">
-        <img src={logoFinance} alt='Logo Finance'></img>
-        <h1> la conception de l'interface commence!</h1>
+      <Navbar/>
+      <Layout/>
     </div>
   );
 }
