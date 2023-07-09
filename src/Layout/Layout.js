@@ -98,9 +98,10 @@ export default function Layout() {
                                     <thead>
                                         <tr>
                                             <th scope="col">#</th>
-                                            <th scope="col">First</th>
-                                            <th scope="col">Last</th>
-                                            <th scope="col">Handle</th>
+                                            <th scope="col">Nom et Prenom</th>
+                                            <th scope="col">Qualité</th>
+                                            <th scope="col">Autorité Administratif</th>
+                                            <th scope="col">Action</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -109,18 +110,21 @@ export default function Layout() {
                                             <td>Mark</td>
                                             <td>Otto</td>
                                             <td>@mdo</td>
+                                            <td><button  type="button" class="btn btn-outline-info"> <i class="bi bi-eye-fill">Voir</i></button></td>
                                         </tr>
                                         <tr>
                                             <th scope="row">2</th>
                                             <td>Jacob</td>
                                             <td>Thornton</td>
                                             <td>@fat</td>
+                                            <td><button  type="button" class="btn btn-outline-info"> <i class="bi bi-eye-fill">Voir</i></button></td>
                                         </tr>
                                         <tr>
                                             <th scope="row">3</th>
                                             <td>Larry</td>
                                             <td>the Bird</td>
                                             <td>@twitter</td>
+                                            <td><button  type="button" class="btn btn-outline-info"> <i class="bi bi-eye-fill">Voir</i></button></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -139,9 +143,10 @@ export default function Layout() {
                                     <thead>
                                         <tr>
                                             <th scope="col">#</th>
-                                            <th scope="col">First</th>
-                                            <th scope="col">Last</th>
-                                            <th scope="col">Handle</th>
+                                            <th scope="col">Nom et Prenom</th>
+                                            <th scope="col">Qualité</th>
+                                            <th scope="col">Autorité Administratif</th>
+                                            <th scope="col">Action</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -150,18 +155,21 @@ export default function Layout() {
                                             <td>Mark</td>
                                             <td>Otto</td>
                                             <td>@mdo</td>
+                                            <td><button  type="button" class="btn btn-outline-info"> <i class="bi bi-eye-fill">Voir</i></button></td>
                                         </tr>
                                         <tr>
                                             <th scope="row">2</th>
                                             <td>Jacob</td>
                                             <td>Thornton</td>
                                             <td>@fat</td>
+                                            <td><button  type="button" class="btn btn-outline-info"> <i class="bi bi-eye-fill">Voir</i></button></td>
                                         </tr>
                                         <tr>
                                             <th scope="row">3</th>
                                             <td>Larry</td>
                                             <td>the Bird</td>
                                             <td>@twitter</td>
+                                            <td><button  type="button" class="btn btn-outline-info"> <i class="bi bi-eye-fill">Voir</i></button></td>
                                         </tr>
                                     </tbody>
                                 </table>
