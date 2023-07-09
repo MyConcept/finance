@@ -100,7 +100,7 @@ export default function Layout() {
                                             <th scope="col">#</th>
                                             <th scope="col">Nom et Prenom</th>
                                             <th scope="col">Qualité</th>
-                                            <th scope="col">Autorité Administratif</th>
+                                            <th scope="col">Autorité Administrative</th>
                                             <th scope="col">Action</th>
                                         </tr>
                                     </thead>
@@ -145,7 +145,7 @@ export default function Layout() {
                                             <th scope="col">#</th>
                                             <th scope="col">Nom et Prenom</th>
                                             <th scope="col">Qualité</th>
-                                            <th scope="col">Autorité Administratif</th>
+                                            <th scope="col">Autorité Administrative</th>
                                             <th scope="col">Action</th>
                                         </tr>
                                     </thead>
