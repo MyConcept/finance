@@ -5,9 +5,6 @@ export default function Layout() {
         <>
             <h2 class="bg-dark text-white text-rigth border-top borber-1 border-white mp-2 text-center">Tableau de bord</h2>
             <div class="container">
-
-
-
                 <ul class="nav nav-tabs mb-2" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
                         <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Titre notarié + Géomètre</button>
