@@ -62,7 +62,7 @@ export default function Layout() {
                                             <td>Otto</td>
                                             <td> localisé à mdo</td>
                                             <td>placé</td>
-                                            <td><button  type="button" class="btn btn-outline-info"> <i class="bi bi-eye-fill">Voir</i></button></td>
+                                            <td><button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> <i class="bi bi-eye-fill">Voir</i></button></td>
                                         </tr>
                                         <tr>
                                             <th scope="row">2</th>
@@ -70,7 +70,7 @@ export default function Layout() {
                                             <td>Thornton</td>
                                             <td> localisé à fat</td>
                                             <td>vendu</td>
-                                            <td><button  type="button" class="btn btn-outline-info"> <i class="bi bi-eye-fill">Voir</i></button></td>
+                                            <td><button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> <i class="bi bi-eye-fill">Voir</i></button></td>
                                         </tr>
                                         <tr>
                                             <th scope="row">3</th>
@@ -78,9 +78,9 @@ export default function Layout() {
                                             <td>the Bird</td>
                                             <td> localisé à twitter</td>
                                             <td>litigé</td>
-                                            <td><button  type="button" class="btn btn-outline-info"> <i class="bi bi-eye-fill">Voir</i></button></td>
+                                            <td><button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> <i class="bi bi-eye-fill">Voir</i></button></td>
                                         </tr>
-                                    
+
                                     </tbody>
                                 </table>
                             </div>
@@ -110,21 +110,21 @@ export default function Layout() {
                                             <td>Mark</td>
                                             <td>Otto</td>
                                             <td>@mdo</td>
-                                            <td><button  type="button" class="btn btn-outline-info"> <i class="bi bi-eye-fill">Voir</i></button></td>
+                                            <td><button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> <i class="bi bi-eye-fill">Voir</i></button></td>
                                         </tr>
                                         <tr>
                                             <th scope="row">2</th>
                                             <td>Jacob</td>
                                             <td>Thornton</td>
                                             <td>@fat</td>
-                                            <td><button  type="button" class="btn btn-outline-info"> <i class="bi bi-eye-fill">Voir</i></button></td>
+                                            <td><button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> <i class="bi bi-eye-fill">Voir</i></button></td>
                                         </tr>
                                         <tr>
                                             <th scope="row">3</th>
                                             <td>Larry</td>
                                             <td>the Bird</td>
                                             <td>@twitter</td>
-                                            <td><button  type="button" class="btn btn-outline-info"> <i class="bi bi-eye-fill">Voir</i></button></td>
+                                            <td><button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> <i class="bi bi-eye-fill">Voir</i></button></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -155,21 +155,21 @@ export default function Layout() {
                                             <td>Mark</td>
                                             <td>Otto</td>
                                             <td>@mdo</td>
-                                            <td><button  type="button" class="btn btn-outline-info"> <i class="bi bi-eye-fill">Voir</i></button></td>
+                                            <td><button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> <i class="bi bi-eye-fill">Voir</i></button></td>
                                         </tr>
                                         <tr>
                                             <th scope="row">2</th>
                                             <td>Jacob</td>
                                             <td>Thornton</td>
                                             <td>@fat</td>
-                                            <td><button  type="button" class="btn btn-outline-info"> <i class="bi bi-eye-fill">Voir</i></button></td>
+                                            <td><button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> <i class="bi bi-eye-fill">Voir</i></button></td>
                                         </tr>
                                         <tr>
                                             <th scope="row">3</th>
                                             <td>Larry</td>
                                             <td>the Bird</td>
                                             <td>@twitter</td>
-                                            <td><button  type="button" class="btn btn-outline-info"> <i class="bi bi-eye-fill">Voir</i></button></td>
+                                            <td><button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> <i class="bi bi-eye-fill">Voir</i></button></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -177,11 +177,57 @@ export default function Layout() {
                         </div>
 
                     </div>
-                    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
-                    <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
-                    <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
+                    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                        <p class="card-text placeholder-glow">
+                            <span class="placeholder col-7"></span>
+                            <span class="placeholder col-4"></span>
+                            <span class="placeholder col-4"></span>
+                            <span class="placeholder col-6"></span>
+                            <span class="placeholder col-8"></span>
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                        <p class="card-text placeholder-glow">
+                            <span class="placeholder col-7"></span>
+                            <span class="placeholder col-4"></span>
+                            <span class="placeholder col-4"></span>
+                            <span class="placeholder col-6"></span>
+                            <span class="placeholder col-8"></span>
+                        </p>
+                    </div>
+                    <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">
+                        <p class="card-text placeholder-glow">
+                            <span class="placeholder col-7"></span>
+                            <span class="placeholder col-4"></span>
+                            <span class="placeholder col-4"></span>
+                            <span class="placeholder col-6"></span>
+                            <span class="placeholder col-8"></span>
+                        </p>
+                    </div>
                 </div>
-
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="staticBackdropLabel">information sur....</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                les informations suplementaires et completes seront affichées ici<br />
+                                <p class="card-text placeholder-glow">
+                                    <span class="placeholder col-7"></span>
+                                    <span class="placeholder col-4"></span>
+                                    <span class="placeholder col-4"></span>
+                                    <span class="placeholder col-6"></span>
+                                    <span class="placeholder col-8"></span>
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </>
     );
