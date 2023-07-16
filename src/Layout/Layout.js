@@ -4,7 +4,7 @@ export default function Layout() {
     return (
         <>
             <h2 class="bg-dark text-white text-rigth border-top borber-1 border-white mp-2 text-center">Tableau de bord</h2>
-            <div class="container">
+            <div class="container-fluid">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="#">Tableau de bord</a></li>
